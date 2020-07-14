@@ -1,0 +1,72 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url("../imege/1.jpg");
+    background-size: cover;
+
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+.signiIn{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    background: #247ebf;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px  rgba(0,0,0,5);
+}
+.fold{
+    position: relative;
+    width: 100%;
+    background: rgba(17,24,24,0.8);
+    transform-origin: top;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    transition: .5s;
+   /* transform: perspective(2000px) rotateX(90deg);*/
+}
+.fold form input[type='text'],
+.fold form input[type='password']
+{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: none;
+    outline: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+}
+::placeholder{
+    color: #fff;
+}
+.fold form input[type='submit']
+{
+    display: block;
+    padding: 12px 40px;
+    border-radius: 40px;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+    background: #1d2b38;
+    color: #fff;
+    box-shadow: 0 5px 10px  rgba(0,0,0,5);
+}
+
+
